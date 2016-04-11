@@ -6,9 +6,7 @@
 config={
     'socket': '../fcgi/fcgi.sock',
     'getGroups': {
-        'DisplayGroups': [
-            "all", "uatprovision"
-        ]
+        'DisplayGroups': ".*"
     },
     'decommNode': {
         'osimage': 'centos7.1-x86_64-install-decommission'
